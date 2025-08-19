@@ -1,0 +1,173 @@
+{
+  "metrics": {
+    "totalConversations": 58873,
+    "conversationsChange": 12.3,
+    "sentimentScore": 93,
+    "sentimentChange": 2.1,
+    "csatScore": 90,
+    "csatChange": -0.5,
+    "criticalIssues": 7,
+    "criticalIssuesChange": 3
+  },
+  "alerts": [
+    {
+      "id": "alert-1",
+      "type": "critical",
+      "title": "AI Alert: Critical Issue Detected",
+      "description": "\"Game Crashed\" mentions increased by 145% in the last 24 hours. This appears to be related to the latest update release.",
+      "action": "View Details",
+      "secondaryAction": "Create Action"
+    }
+  ],
+  "issues": [
+    {
+      "id": "issue-1",
+      "name": "Game Crashed",
+      "mentions": 8102,
+      "change": 145,
+      "priority": "critical",
+      "sentiment": "negative"
+    },
+    {
+      "id": "issue-2",
+      "name": "Request Refund",
+      "mentions": 6015,
+      "change": 23,
+      "priority": "high",
+      "sentiment": "negative"
+    },
+    {
+      "id": "issue-3",
+      "name": "Payment Declined",
+      "mentions": 3409,
+      "change": 12,
+      "priority": "medium",
+      "sentiment": "negative"
+    },
+    {
+      "id": "issue-4",
+      "name": "Game Aborted",
+      "mentions": 6259,
+      "change": 8,
+      "priority": "medium",
+      "sentiment": "negative"
+    },
+    {
+      "id": "issue-5",
+      "name": "I Didn't Abort",
+      "mentions": 3409,
+      "change": -5,
+      "priority": "low",
+      "sentiment": "neutral"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "rec-1",
+      "type": "urgent",
+      "title": "Create Emergency Response",
+      "description": "Set up automated responses for \"Game Crashed\" to reduce response time by 60%",
+      "action": "Set Up Now"
+    },
+    {
+      "id": "rec-2",
+      "type": "opportunity",
+      "title": "Expand Positive Feedback",
+      "description": "\"Fast Delivery\" sentiment is up 34%. Consider highlighting this in marketing.",
+      "action": "Learn More"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "2936628",
+      "channel": "Web",
+      "time": "05:15 AM",
+      "date": "08/10/2023",
+      "preview": "We dont want or need a box this next coming week and weve had one automatically selected which is being processed. I want to cancel this box",
+      "tags": ["Cancel Order", "Repetitive Issues"],
+      "sentiment": "negative",
+      "priority": "high",
+      "starred": true,
+      "satisfactionRating": "unoffered"
+    },
+    {
+      "id": "2936622",
+      "channel": "Web",
+      "time": "05:00 AM",
+      "date": "08/10/2023",
+      "preview": "I raised a telephone query today as I had been charged for today's delivery, whereas it should have been under a credit as my last delivery was missing ingredients",
+      "tags": ["Incorrectly Charged", "Credit Not Applied"],
+      "sentiment": "negative",
+      "priority": "medium",
+      "starred": false,
+      "satisfactionRating": "unoffered"
+    },
+    {
+      "id": "2936616",
+      "channel": "Web",
+      "time": "04:38 AM",
+      "date": "08/10/2023",
+      "preview": "My delivery never arrived despite assurances that it would. Out of the past 3 weeks 2 deliveries have not arrived. This is a pretty poor service",
+      "tags": ["Box Not Delivered", "Request Refund"],
+      "sentiment": "negative",
+      "priority": "high",
+      "starred": false,
+      "satisfactionRating": "unoffered"
+    },
+    {
+      "id": "2936604",
+      "channel": "Web",
+      "time": "04:18 AM",
+      "date": "08/10/2023",
+      "preview": "Really happy with the service and quality of ingredients. The recipes are easy to follow and delicious. Keep up the great work!",
+      "tags": ["Positive Feedback", "Quality Praise"],
+      "sentiment": "positive",
+      "priority": "low",
+      "starred": true,
+      "satisfactionRating": "5"
+    }
+  ],
+  "integrations": [
+    {
+      "name": "Zendesk CSAT",
+      "icon": "zendesk",
+      "connected": true
+    },
+    {
+      "name": "Zendesk Support",
+      "icon": "zendesk-support",
+      "connected": true
+    },
+    {
+      "name": "Zendesk Chat",
+      "icon": "zendesk-chat",
+      "connected": false
+    },
+    {
+      "name": "Intercom",
+      "icon": "intercom",
+      "connected": false
+    },
+    {
+      "name": "SurveyMonkey",
+      "icon": "surveymonkey",
+      "connected": false
+    },
+    {
+      "name": "Facebook",
+      "icon": "facebook",
+      "connected": true
+    }
+  ],
+  "actions": [
+    {
+      "id": "ACT-001",
+      "title": "Testing action",
+      "dateLogged": "7 Aug 2025",
+      "dueDate": "Not scheduled",
+      "assignee": "Unassigned",
+      "priority": "Medium",
+      "status": "To do"
+    }
+  ]
+}
